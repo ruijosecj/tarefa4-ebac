@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="dist/css/animacao.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Tarefa 4</title>
 </head>
-<body>
-    <h1>Olá</h1>
+<body style="background-color: #040714; color: #fff;">
+    <section>
+        <div class="div-secao-principal d-flex justify-content-between align-items-end">
+            <div>
+                <img class="img-clea d-none d-md-block" src="./dist/images/clea.png" alt="Clea">
+            </div>
+            <div class="div-meio d-flex justify-content-center position-absolute">
+                <div class="div-img-circulo position-absolute">
+                    <img class="img-circulo rotacao" src="./dist/images/circulo.png" alt="Circulo">
+                </div>
+                <div class="div-img-drestranho position-absolute">
+                    <img class="img-drestranho aumenta-sobe" src="./dist/images/drestranho.png" alt="Drestranho">
+                </div>
+                <div class="div-img-titulo position-absolute">
+                    <img class="img-titulo" src="./dist/images/titulo.png" alt="Titulo do filme">
+                </div>
+            </div>
+            <div>
+                <img class="img-wanda d-none d-md-block" src="./dist/images/wanda.png" alt="Wanda">
+            </div>
+        </div>
+    </section>
+
+    <section class="section-conteudo">
+        <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-6 mb-5">
+                <div class="d-flex justify-content-center">
+                    <div class="d-flex flex-column div-info">
+                        <div class="p-2 div-titulo-principal">
+                            <h1 class="titulo-principal">Deixe seu Email e Receba o Ingresso Exclusivo!</h1>
+                        </div>
+                        <div class="p-2">
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control input-cta" placeholder="seu@email.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                  <button class="btn btn-cta btn-warning" type="button">Enviar</button>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mb-5">
+                <div class="d-flex justify-content-center">
+                    <img class="img-fluid" src="dist/images/ticket.png" alt="imagem ticket cinema">
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
